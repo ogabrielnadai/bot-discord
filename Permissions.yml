@@ -1,0 +1,20 @@
+# Definindo os espaços reservados que serão usados ​​em todo o restante das permissões.
+# Deve ser definido no formato:
+# Nome: ID
+# O nome não importa, desde que corresponda ao que está nas permissões de comando abaixo.
+# ID deve ser um ID de função válido.
+Roles:
+  Member: 000000000000
+  Admin: 000000000000
+
+# Permissões para cada comando. O campo 'nome' do comando é a chave.
+# Se você agrupou comandos, delimite os comandos de grupo com um '-':
+# exemplo:
+# - "{Membro}"
+# example-command:
+# - "{Membro}"
+# - "{Admin}"
+prefix:
+  - "{Admin}"
+restart:
+  - "{Admin}"

@@ -1,0 +1,64 @@
+# O nome da variável de ambiente que armazenará o token do bot.
+Token Env Var: SEU TOKEN AQUI
+
+# Prefixo de comando para todos os comandos.
+Prefix: '+'
+
+# O ID do canal para o qual o bot enviará mensagens.
+Log Channel: ID DO CANAL ONDE O BOT MANDA QUE ESTÁ QUEBRADO (INT)
+
+# O ID do usuário do qual deseja fazer ping pelo comando Broken.
+Broken User ID: log-server
+
+# Define o status 'Reproduzindo' do bot.
+Game Status:
+  # 'true' exibirá 'Reproduzindo ___' (___ definido abaixo), 'false' não exibirá nada.
+  Active: true
+
+  # A atividade do jogo a ser exibida.
+  # NOTE: Use '{prefix}' como um espaço reservado para o prefixo do comando bots.
+  # Padrão: '{prefix} help'
+  Game: NOME DO JOGO
+
+# Configurações que serão aplicadas a quase todas as mensagens incorporadas, a menos que especificado de outra forma.
+Embed Settings:
+  # A cor da barra lateral para mensagens incorporadas, no padrão RGB.
+  Color:
+    r: 0
+    g: 0
+    b: 0
+
+  # Esta opção excluirá a mensagem do usuário após o envio de um comando.
+  # NOTE: O bot precisa da permissão "gerenciar mensagens" para que isso funcione.
+  Delete Commands: false
+
+  # Se deve ou não mostrar o autor de cada comando na resposta dada.
+  # NOTE: Funciona bem com a opção "Excluir comandos" acima.
+  Show Author: false
+
+  Footer:
+    # O texto para o rodapé das mensagens
+    Text: TEXTO RODAPÉ
+
+    # O URL do ícone na parte inferior da imagem do rodapé.
+    Icon URL: https://example.com/sample.png
+
+# O link para o convite do servidor
+Server Invite: https://discordapp.com/abcabc
+
+# O texto da mensagem de log online.
+# NOTE: Use '{nomedeusuário}' como espaço reservado para o nome de usuário do bot
+Online Message: '{username} Online!'
+
+# O texto para a mensagem de log de reinicialização.
+# NOTE: Use '{nomedeusuário}' como um espaço reservado para o nome de usuário do bot.
+Restarting Message: '{username} Restarting...'
+
+Stop Message: '{username} Stop...'
+
+# O arquivo em que os dados são armazenados. Provavelmente não deveria mexer com isso.
+Data File: ./Data/data_storage.json
+
+# O Nome do BOT para chamandas de client event
+Bot Name: NOME DO BOT PARA CHAMADAS CLIENT ENVENT
+
